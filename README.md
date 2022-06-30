@@ -17,5 +17,12 @@ How do you lose to the dealer?
 - Your hand value exceeds 21.
 - The dealers hand has a greater value than yours at the end of the round
 
+To play just access the folder via CMD and paste this code
+
+npm run start
+
+Then open the local host
+
+http://localhost:3000/
 
 Have fun!
