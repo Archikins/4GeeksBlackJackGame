@@ -134,6 +134,7 @@ const resultPlayer = () => {
 
   if (loseCases) {
     if (confirm("You lose, try again")) {
+      showDealerCard();
       return window.location.reload();
     }
   }
