@@ -10,20 +10,44 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container text-center">
+      <div class="row mt-5">
+        <div class="col-10 mt-5 text-start">
+          <h1 style="color: white">BLACKJACK VANILLA JS</h1>
+        </div>
+        <div class="col-2 mt-5">
+          <button id="ask" class="btn btn-light">Ask</button>
+          <button id="stay" class="btn btn-light">Stay</button>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-2 mt-5">
+          <div id="dealerGroupCount" class="mt-5 p-2 rounded">
+            <p>Total</p>
+            <p id="dealerCount"></p>
+          </div>
+        </div>
+        <div id="dealer" class="col-4 ms-auto">
+          <div id="dealer-c1" class="mt-5">1,1</div>
+          <div id="dealer-c2" class="mt-5">1,1</div>
+        </div>
+        <div id="player" class="col-4 ms-auto">
+          <div id="player-c1" class="mt-5">1,1</div>
+          <div id="player-c2" class="mt-5">1,1</div>
+        </div>
+        <div class="col-2 mt-5">
+          <div id="playerGroupCount" class="mt-5 p-2 rounded">
+            <p>Total</p>
+            <p id="playerCount"></p>
+          </div>
+        </div>
       </div>
     </div>
+    <a href="https://github.com/Archikins"
+      ><p class="copyright">&copy; 2022 made by Archie</p></a
+    >
   </body>
 </html>

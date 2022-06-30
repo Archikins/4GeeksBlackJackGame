@@ -16,7 +16,7 @@ if(process.env.GITPOD_WORKSPACE_URL){
 
 module.exports = {
   mode: 'development',
-  entry: ['./src/app.js'],
+  entry: ['./src/assets/js/app.js'],
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'main.bundle.js',

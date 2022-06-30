@@ -1,0 +1,49 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #008f39;
+}
+
+.card {
+  margin-top: -380px;
+  height: 400px;
+}
+
+#dealer,
+#player {
+  padding-top: 400px;
+}
+
+.card-body p {
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dealerGroupCount,
+#playerGroupCount {
+  background-color: white;
+}
+
+#dealer-c1 .card-header,
+#dealer-c1 .card-body,
+#dealer-c1 .card-footer,
+#dealerCount {
+  visibility: hidden;
+}
+
+#dealer-c1 .card {
+  background-color: rgb(192, 0, 0);
+}
+
+.copyright {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  color: white;
+  font-size: 12px;
+}
